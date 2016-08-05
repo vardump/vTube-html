@@ -1,13 +1,74 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+    <title>vTube | A video sharing platform HTML template</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css"
+          media="screen,projection"/>
 
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+<!--Top navigation-->
+<header>
+    <nav>
+        <div class="container">
+            <div class="nav-wrapper">
+
+                <a href="#" class="brand-logo">vTube</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="waves-effect btn">Upload</a></li>
+                    <li><a class="waves-effect waves-light btn">Sign In</a></li>
+                </ul>
+
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="row">
+        <div class="col l3 m3 s12">
+            <img src="https://i.ytimg.com/vi/OFLQIWxmjgU/hqdefault.jpg?custom=true&w=336&h=188&stc=true&jpg444=true&jpgq=90&sp=68&sigh=tDqwmJJ7XNy7peXQTghZ1pr40NA"
+                 alt="">
+        </div>
+        <div class="col l3 m3 s12">
+            <img src="https://i.ytimg.com/vi/eNNMY1vCDx8/hqdefault.jpg?custom=true&w=336&h=188&stc=true&jpg444=true&jpgq=90&sp=68&sigh=ad_US6gDDfK3t1nCpJjJ5fNoOkA"
+                 alt="">
+        </div>
+        <div class="col l3 m3 s12">
+            <img src="https://i.ytimg.com/vi/feA1pnLCzO0/hqdefault.jpg?custom=true&w=336&h=188&stc=true&jpg444=true&jpgq=90&sp=68&sigh=Uwc5GP5XgZA4m_EYPq7IfXXD0PU" alt="">
+        </div>
+        <div class="col l3 m3 s12">
+            <img src="https://i.ytimg.com/vi/FLLb7aCUR8E/hqdefault.jpg?custom=true&w=336&h=188&stc=true&jpg444=true&jpgq=90&sp=68&sigh=XBKC72SeWAHTZJCKi1RM4y2mDCY"
+                 alt="">
+        </div>
+    </div>
+</main>
+
+<footer>
+    
+</footer>
+
+<!--Import jQuery before materialize.js-->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

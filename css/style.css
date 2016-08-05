@@ -1,0 +1,15 @@
+@media only screen and (min-width: 993px) {
+  nav .container {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px; }
+  nav a.button-collapse {
+    display: block; }
+  nav .brand-logo {
+    position: relative; } }
+.btn:not(.waves-light) {
+  background-color: #FFFFFF;
+  color: #212121; }
+
+img {
+  width: 100%; }
