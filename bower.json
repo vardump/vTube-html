@@ -1,0 +1,20 @@
+{
+  "name": "vtube-html",
+  "homepage": "https://github.com/vardump/vTube-html",
+  "authors": [
+    "Md Mazedul Islam Khan <mazedulislamkhan@gmail.com>"
+  ],
+  "description": "A video sharing platform HTML template",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.7"
+  }
+}
