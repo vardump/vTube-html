@@ -26,3 +26,65 @@
 img {
   width: 100%;
 }
+.title {
+  font-size: 2.56rem;
+  line-height: normal;
+  padding: 10px;
+  .material-icons{
+    margin-right: 10px;
+  }
+}
+.card{
+  .card-content{
+    .card-title{
+      font-size: 20px;
+      line-height: 22px;
+    }
+  }
+}
+.row.white{
+  margin-top:-22px;
+  margin-bottom: 0;
+  clear: both;
+}
+footer{
+  .content{
+    display: inline-block;
+    overflow: hidden;
+    padding:10px;
+    li{
+      display: inline-block;
+    }
+  }
+  .footermenu, .footermenu-2{
+    li{
+      display: inline-block;
+      margin-right: 1%;
+      a{
+
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  .footermenu-2{
+    font-size: smaller;
+  }
+}
+main {
+  .row.white {
+  }
+}
+footer{
+  bottom:0px;
+  margin:0px;
+}
+
+aside#slide-out{
+  display: block;
+  overflow-y: scroll;
+  small{
+    text-align: center;
+  }
+}

@@ -1,15 +1,74 @@
 @media only screen and (min-width: 993px) {
+  /* line 3, style.scss */
   nav .container {
     width: 100%;
     padding-left: 30px;
     padding-right: 30px; }
+  /* line 10, style.scss */
   nav a.button-collapse {
     display: block; }
+  /* line 15, style.scss */
   nav .brand-logo {
     position: relative; } }
+/* line 21, style.scss */
 .btn:not(.waves-light) {
   background-color: #FFFFFF;
   color: #212121; }
 
+/* line 26, style.scss */
 img {
   width: 100%; }
+
+/* line 29, style.scss */
+.title {
+  font-size: 2.56rem;
+  line-height: normal;
+  padding: 10px; }
+  /* line 33, style.scss */
+  .title .material-icons {
+    margin-right: 10px; }
+
+/* line 39, style.scss */
+.card .card-content .card-title {
+  font-size: 20px;
+  line-height: 22px; }
+
+/* line 45, style.scss */
+.row.white {
+  margin-top: -22px;
+  margin-bottom: 0;
+  clear: both; }
+
+/* line 51, style.scss */
+footer .content {
+  display: inline-block;
+  overflow: hidden;
+  padding: 10px; }
+  /* line 55, style.scss */
+  footer .content li {
+    display: inline-block; }
+/* line 60, style.scss */
+footer .footermenu li, footer .footermenu-2 li {
+  display: inline-block;
+  margin-right: 1%; }
+  /* line 66, style.scss */
+  footer .footermenu li a:hover, footer .footermenu-2 li a:hover {
+    text-decoration: underline; }
+/* line 71, style.scss */
+footer .footermenu-2 {
+  font-size: smaller; }
+
+/* line 79, style.scss */
+footer {
+  bottom: 0px;
+  margin: 0px; }
+
+/* line 84, style.scss */
+aside#slide-out {
+  display: block;
+  overflow-y: scroll; }
+  /* line 87, style.scss */
+  aside#slide-out small {
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
