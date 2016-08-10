@@ -1,3 +1,35 @@
+@import "social";
+
+
+//mixin
+@mixin footer{
+    .content{
+      display: inline-block;
+      overflow: hidden;
+      padding:10px;
+      li{
+        display: inline-block;
+      }
+    }
+    .footermenu, .footermenu-2{
+      li{
+        display: inline-block;
+        margin-right: 1%;
+        a{
+          color: lightseagreen;
+        }
+        a:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+    .footermenu-2{
+      font-size: smaller;
+    }
+}
+
+
+//media query
 @media only screen and (min-width: 993px) {
   nav {
     .container {
@@ -47,31 +79,7 @@ img {
   margin-bottom: 0;
   clear: both;
 }
-footer{
-  .content{
-    display: inline-block;
-    overflow: hidden;
-    padding:10px;
-    li{
-      display: inline-block;
-    }
-  }
-  .footermenu, .footermenu-2{
-    li{
-      display: inline-block;
-      margin-right: 1%;
-      a{
 
-      }
-      a:hover{
-        text-decoration: underline;
-      }
-    }
-  }
-  .footermenu-2{
-    font-size: smaller;
-  }
-}
 main {
   .row.white {
   }
@@ -87,4 +95,25 @@ aside#slide-out{
   small{
     text-align: center;
   }
+}
+main{
+  max-width: 95%;
+  margin: 0 auto;
+}
+.video_list{
+  border:1px solid #e3e3e3;
+  margin:2px 0px;
+}
+.video_list:after{
+  content: "";
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+footer{
+  @include footer;
+}
+.social{
+  @include social;
 }

@@ -1,0 +1,32 @@
+@mixin social{
+  li{
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-right: 1%;
+
+
+    a{
+      color: #FFFFFF;
+      i{
+        padding: 10px;
+        font-size: 25px;
+        width: 48px;
+        height: 48px;
+
+      }
+      i.fa-facebook{
+        background-color: #0D47A1;
+      }
+      i.fa-linkedin{
+        background-color: #008cc9;
+      }
+      i.fa-twitter{
+        background-color: #03a9f4;
+      }
+      i.fa-google-plus{
+        background-color: #D32F2F;
+      }
+    }
+  }
+}
