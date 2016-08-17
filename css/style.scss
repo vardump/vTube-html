@@ -1,33 +1,5 @@
 @import "social";
-
-
-//mixin
-@mixin footer{
-    .content{
-      display: inline-block;
-      overflow: hidden;
-      padding:10px;
-      li{
-        display: inline-block;
-      }
-    }
-    .footermenu, .footermenu-2{
-      li{
-        display: inline-block;
-        margin-right: 1%;
-        a{
-          color: lightseagreen;
-        }
-        a:hover{
-          text-decoration: underline;
-        }
-      }
-    }
-    .footermenu-2{
-      font-size: smaller;
-    }
-}
-
+@import "mixins";
 
 //media query
 @media only screen and (min-width: 993px) {
@@ -116,4 +88,7 @@ footer{
 }
 .social{
   @include social;
+}
+.slider{
+  @include slider;
 }

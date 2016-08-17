@@ -8,7 +8,7 @@ $(document).ready(function () {
     $('select').material_select();
 
     $('.side-nav').show();
-    $('activator')on('click', function(){
-        stopPropagation;
+    $(document).ready(function(){
+        $('.slider').slider({full_width: false});
     });
 });
